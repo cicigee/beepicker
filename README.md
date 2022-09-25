@@ -18,6 +18,10 @@ Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
 ![image](screenshot_linux.png)
 
+### Windows 10 21H2:
+
+![image](screenshot_windows.png)
+
 
 # Requirements
 - Python 3.9
