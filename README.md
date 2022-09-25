@@ -29,13 +29,18 @@ Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
 # Installation
 
-## Package application
+## Package application (macOS and Windows)
 
 https://pyinstaller.org/en/stable/
 
 ## Linux
-`pip3 install tkinter`
-`pip3 install PyYAML`
+```
+mkdir -p /opt/ceeceepro
+cp bee_picker.py /opt/ceeceepro/bee_picker.py
+chmod +x /opt/ceeceepro/bee_picker.py
+pip3 install tkinter
+pip3 install PyYAML
+```
 
 ## Configuring your rules & browsers
 
