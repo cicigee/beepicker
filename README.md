@@ -27,6 +27,8 @@ Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
 ## Package application
 
+https://pyinstaller.org/en/stable/
+
 ## Configuring your rules & browsers
 
 Customize your `.bee_picker.yaml` file.
