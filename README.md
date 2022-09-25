@@ -55,6 +55,9 @@ SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuse
 ### MacOS
 Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 
+Select the app manually:
+![image](screenshot_swiftdefaultapps.png)
+
 (or https://sveinbjorn.org/platypus if you want to use it to build the app bundle)
 
 ### Linux
