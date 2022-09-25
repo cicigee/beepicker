@@ -8,6 +8,17 @@ Cross-platform link handler
 
 Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
+## Screenshots
+
+### MacOS 12.6:
+
+![image](screenshot_macos.png)
+
+### Ubuntu Linux 20.04:
+
+![image](screenshot_linux.png)
+
+
 # Requirements
 - Python 3.9
 - Tkinter
