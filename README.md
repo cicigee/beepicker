@@ -25,7 +25,13 @@ Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
 # Installation
 
-# Setting as your default browser
+## Package application
+
+## Configuring your rules & browsers
+
+Customize your `.bee_picker.yaml` file.
+
+## Setting as your default browser
 
 ## Windows
 https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/
