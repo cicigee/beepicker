@@ -61,4 +61,5 @@ Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 Use update-alternatives:
 
 `sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200`
+
 `update-alternatives --config x-www-browser`
