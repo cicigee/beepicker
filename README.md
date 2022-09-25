@@ -33,6 +33,10 @@ Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
 
 https://pyinstaller.org/en/stable/
 
+## Linux
+`pip3 install tkinter`
+`pip3 install PyYAML`
+
 ## Configuring your rules & browsers
 
 Customize your `.bee_picker.yaml` file.
@@ -57,3 +61,4 @@ Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 Use update-alternatives:
 
 `sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200`
+`update-alternatives --config x-www-browser`
