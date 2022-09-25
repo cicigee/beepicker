@@ -10,10 +10,10 @@ import yaml
 configuration = {}
 
 if os.sys.platform == 'darwin' or os.sys.platform == 'linux':
-    with open(os.environ['HOME']+'/.browser_chooser.yaml') as file:
+    with open(os.environ['HOME']+'/.bee_picker.yaml') as file:
         configuration.update(yaml.load(file, Loader=yaml.FullLoader))
 if os.sys.platform == 'windows':
-    with open(os.environ['USERPROFILE']+'/.browser_chooser.yaml') as file:
+    with open(os.environ['USERPROFILE']+'/.bee_picker.yaml') as file:
         configuration.update(yaml.load(file, Loader=yaml.FullLoader))
 
 print("Command line arguments:")
