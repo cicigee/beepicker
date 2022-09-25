@@ -40,7 +40,13 @@ Customize your `.bee_picker.yaml` file.
 ## Setting as your default browser
 
 ## Windows
-https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/
+Import [registry entries](/windows/app_registration.reg)
+
+`SetUserFTA.exe https bee_picker.exe`
+
+`SetUserFTA.exe http bee_picker.exe`
+
+SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/)
 
 ## MacOS
 https://sveinbjorn.org/platypus
