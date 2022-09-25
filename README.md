@@ -39,7 +39,7 @@ Customize your `.bee_picker.yaml` file.
 
 ## Setting as your default browser
 
-## Windows
+### Windows
 Import [registry entries](/windows/app_registration.reg)
 
 `SetUserFTA.exe https bee_picker.exe`
@@ -48,10 +48,12 @@ Import [registry entries](/windows/app_registration.reg)
 
 SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/)
 
-## MacOS
-https://sveinbjorn.org/platypus
+### MacOS
+Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 
-## Linux
+(or https://sveinbjorn.org/platypus if you want to use it to build the app bundle)
+
+### Linux
 Use update-alternatives:
 
 `sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200`
