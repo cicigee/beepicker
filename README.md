@@ -43,4 +43,5 @@ https://sveinbjorn.org/platypus
 
 ## Linux
 Use update-alternatives:
+
 `sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200`
