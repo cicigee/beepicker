@@ -1,0 +1,33 @@
+rules:
+ Personal:
+   - ebay.com/
+   - ebay.co.uk/
+   - ebay.com.au/
+   - music.youtube.com/
+ Brave:
+   - slack.com/
+   - https://slack.com/
+ Brave Incognito:
+   - teams.microsoft.com
+   - zoom.us
+   - https://bdb.ee/
+   - http://airm.ee/
+default: Work
+shortcuts:
+  space: default
+  f: Personal
+  w: Work
+  b: Brave
+  i: Firefox Incognito
+  c: curl
+  Escape: exit
+browsers:
+  Personal: /Applications/Firefox.app/Contents/MacOS/firefox -P Cici
+  Firefox Incognito: /Applications/Firefox.app/Contents/MacOS/firefox -P Cici --private-window
+  Brave Incognito: /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser --incognito
+  Brave Incognito Tor: /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser --incognito --tor
+  Work: /Applications/Firefox.app/Contents/MacOS/firefox -P Work
+  Brave: /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser
+  Opera Incognito: /Applications/Opera.app/Contents/MacOS/Opera --incognito
+  curl: curl
+  Firefox SOCKS8080: /Applications/Firefox.app/Contents/MacOS/firefox -P socks_8080

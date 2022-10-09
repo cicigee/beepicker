@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Bee Picker
+Exec=/opt/ceeceepro/bee_picker.py %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=firefox
+Categories=GNOME;GTK;Network;WebBrowser;
+MimeType=x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true

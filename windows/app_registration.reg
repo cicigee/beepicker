@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe\DefaultIcon]
+@="C:\\Program Files\\Bee Picker\\bee_picker.exe,1"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe\shell]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe\shell\open]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe\shell\open\command]
+@="\"C:\\Program Files\\Bee Picker\\bee_picker.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\bee_picker.exe\SupportedTypes]
+".htm"=""
+".html"=""
+".shtml"=""
+
+
+[HKEY_CLASSES_ROOT\bee_picker.exe\Application]
+"ApplicationIcon"="C:\\Program Files\\Bee Picker\\bee_picker.exe,1"
+"ApplicationName"="Bee Picker"
+"ApplicationDescription"="Choose a browser from a menu"
+"ApplicationCompany"="cicigee"
+
+
+
+[HKEY_CLASSES_ROOT\bee_picker.exe\DefaultIcon]
+@="C:\\Program Files\\Bee Picker\\bee_picker.exe,1"
+
+
+
+[HKEY_CLASSES_ROOT\bee_picker.exe\shell]
+
+
+
+[HKEY_CLASSES_ROOT\bee_picker.exe\shell\open]
+
+
+
+[HKEY_CLASSES_ROOT\bee_picker.exe\shell\open\command]
+@="\"C:\\Program Files\\Bee Picker\\bee_picker.exe\" \"%1\""
