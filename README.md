@@ -6,13 +6,17 @@ Cross-platform link handler
 - Intelligent URI matching rules
 - Keyboard shortcuts
 
-Tested in Windows 10 / MacOS 12.6 Monterey / Ubuntu 20.04 Focal Fossa
+Tested in Windows 10 / MacOS 12.6 Monterey / MacOS 14.4.1 Sonoma / Ubuntu 20.04 Focal Fossa
 
 ## Screenshots
 
+### MacOS 14.4.1:
+
+![image](screenshot_macos14.png)
+
 ### MacOS 12.6:
 
-![image](screenshot_macos.png)
+![image](screenshot_macos12.png)
 
 ### Ubuntu Linux 20.04:
 
@@ -58,6 +62,20 @@ Import [registry entries](/windows/app_registration.reg)
 SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/)
 
 ### MacOS
+
+Run `macos/build.sh` with
+
+#### Sonoma
+
+Install the python3 module for LaunchServices with pip:
+`pip3 install pyobjc-framework-LaunchServices`
+
+Run this command in `python3` to set the default browser to BeePicker:
+`from LaunchServices import LSSetDefaultHandlerForURLScheme
+LSSetDefaultHandlerForURLScheme("http","org.cici.BeePicker")`
+
+#### Monterey
+
 Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 
 Select the app manually:
