@@ -55,9 +55,10 @@ Customize your `.bee_picker.yaml` file.
 ### Windows
 Import [registry entries](/windows/app_registration.reg)
 
-`SetUserFTA.exe https bee_picker.exe`
-
-`SetUserFTA.exe http bee_picker.exe`
+```
+SetUserFTA.exe https bee_picker.exe
+SetUserFTA.exe http bee_picker.exe
+```
 
 SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/)
 
@@ -71,9 +72,10 @@ Install the python3 module for LaunchServices with pip:
 `pip3 install pyobjc-framework-LaunchServices`
 
 Run this command in `python3` to set the default browser to BeePicker:
-`from LaunchServices import LSSetDefaultHandlerForURLScheme
-
-LSSetDefaultHandlerForURLScheme("http","org.cici.BeePicker")`
+```
+from LaunchServices import LSSetDefaultHandlerForURLScheme
+LSSetDefaultHandlerForURLScheme("http","org.cici.BeePicker")
+```
 
 #### Monterey
 
@@ -87,6 +89,8 @@ Select the app manually:
 ### Linux
 Use update-alternatives:
 
-`sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200`
+```
+sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/ceeceepro/bee_picker.py 200
 
-`update-alternatives --config x-www-browser`
+update-alternatives --config x-www-browser
+```
