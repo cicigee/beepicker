@@ -72,6 +72,7 @@ Install the python3 module for LaunchServices with pip:
 
 Run this command in `python3` to set the default browser to BeePicker:
 `from LaunchServices import LSSetDefaultHandlerForURLScheme
+
 LSSetDefaultHandlerForURLScheme("http","org.cici.BeePicker")`
 
 #### Monterey
