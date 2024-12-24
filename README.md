@@ -6,7 +6,7 @@ Cross-platform link handler
 - Intelligent URI matching rules
 - Keyboard shortcuts
 
-Tested in Windows 10 / MacOS 12.6 Monterey / MacOS 14.4.1 Sonoma / Ubuntu 20.04 Focal Fossa
+Tested in Windows 10 / MacOS 12.6 Monterey / MacOS 14.4.1 Sonoma / MacOS 15.2 Sequoia / Ubuntu 20.04 Focal Fossa
 
 ## Screenshots
 
@@ -28,7 +28,7 @@ Tested in Windows 10 / MacOS 12.6 Monterey / MacOS 14.4.1 Sonoma / Ubuntu 20.04 
 
 
 # Requirements
-- Python 3.9
+- Python 3.9+
 - Tkinter
 
 # Installation
@@ -66,7 +66,11 @@ SetUserFTA is available here: [kolbi.cz](https://kolbi.cz/blog/2017/10/25/setuse
 
 Run `macos/build.sh` with
 
-#### Sonoma
+##### Sequoia
+
+set the `localnettesthost` (an IP address) key in `.bee_picker.yaml` to have MacOS prompt for lan access permissions, this can then be commented out in the configuration file after being prompted.
+
+##### Sonoma (to set default browser manually)
 
 Install the python3 module for LaunchServices with pip:
 `pip3 install pyobjc-framework-LaunchServices`
@@ -77,7 +81,7 @@ from LaunchServices import LSSetDefaultHandlerForURLScheme
 LSSetDefaultHandlerForURLScheme("http","org.cici.BeePicker")
 ```
 
-#### Monterey
+##### Monterey
 
 Install [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
 

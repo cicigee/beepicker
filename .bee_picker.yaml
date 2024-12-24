@@ -1,3 +1,6 @@
+MacOSDefaultBrowser: true
+#localnettesthost is used to test a network connection, useful for MacOS Sequoia that requires local network permissions
+#localnettesthost: 192.168.1.1
 rules:
  Personal:
    - ebay.com/
